@@ -1,0 +1,8 @@
+{
+  "short_name": "Barber9",
+  "name": "Barber9",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

@@ -1,5 +1,7 @@
 import './App.css'
 import {useEffect, useState} from 'react'
+import './reset.css';
+import styles from './App.module.css'
 
 
 function importAll(r) {
@@ -43,8 +45,14 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <img src={currentImg} />
+    <div className={styles.App}>
+      <div className={styles.header}>
+        <h3 className={styles.headerTitle}>Barber9</h3>
+        <p className={styles.headerDescription}>Website under construction</p>
+      </div>
+      <div className={styles.backgroundImageContent}>
+        <img className={styles.backgroundImage} src={currentImg} />
+      </div>
     </div>
   );
 }

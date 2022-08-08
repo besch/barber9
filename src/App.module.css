@@ -1,0 +1,32 @@
+.App {
+    background: #eaafc8;
+    background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
+    background: linear-gradient(to right, #eaafc8, #654ea3);
+    min-height: 100vh;
+}
+
+.header {
+    height: 75px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.headerTitle {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.headerDescription {
+    font-size: 25px;
+}
+
+.backgroundImageContent {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.backgroundImage {
+    width: 800px;
+    height: 800px;
+}

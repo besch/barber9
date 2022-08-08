@@ -1,7 +1,7 @@
 {
   "short_name": "Barber9",
   "name": "Barber9",
-  "start_url": ".",
+  "start_url": "../build",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
